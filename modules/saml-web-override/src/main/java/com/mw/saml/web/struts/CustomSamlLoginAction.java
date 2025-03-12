@@ -46,7 +46,7 @@ import org.osgi.service.component.annotations.Reference;
 	property = "path=/portal/saml/login",
 	service = StrutsAction.class,
 	configurationPid = CustomSamlLoginActionConfiguration.PID)
-public class MWSamlLoginAction extends BaseSamlStrutsAction {
+public class CustomSamlLoginAction extends BaseSamlStrutsAction {
 	
 	@Activate
 	@Modified
@@ -206,7 +206,7 @@ public class MWSamlLoginAction extends BaseSamlStrutsAction {
 	@Reference
 	private SamlSpIdpConnectionLocalService _samlSpIdpConnectionLocalService;
 	
-	private static final Log _log = LogFactoryUtil.getLog(MWSamlLoginAction.class);
+	private static final Log _log = LogFactoryUtil.getLog(CustomSamlLoginAction.class);
 
 	private volatile CustomSamlLoginActionConfiguration _customSamlLoginActionConfiguration;		
 }
