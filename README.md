@@ -30,7 +30,8 @@ injectIdPEntityId=B"true"
 
 ## Notes ##
 1. This is a public repository and is provided as a Proof Of Cencept (POC), as is. 
-2. The code assumes that 'System Settings > Login > Prompt Enabled' and 'Instance Settings > Login > Prompt Enabled' setting enabled.
-3. The code assumes there is only 1 IdP defined per Liferay Environment.
-4. When upgrading to a later Liferay DXP / Quarterly Release version ensure that the code is updated (if needed) to reflect any changes in SamlLoginAction.java.
-5. Source for Liferay DXP 7.4 U92 SamlLoginAction.java is here: https://github.com/liferay/liferay-dxp/blob/7.4.13-u92/modules/dxp/apps/saml/saml-web/src/main/java/com/liferay/saml/web/internal/struts/SamlLoginAction.java
+2. The POC assumes that 'System Settings > Login > Prompt Enabled' and 'Instance Settings > Login > Prompt Enabled' setting enabled.
+3. The POC assumes that the auth.login.url portal property (or the corresponding LIFERAY_AUTH_PERIOD_LOGIN_PERIOD_URL Environment Variable) is NOT set in the environment. Permanently remove if present.
+4. The POC assumes there is only 1 IdP defined per Liferay Environment.
+5. When upgrading to a later Liferay DXP / Quarterly Release version ensure that the code is updated (if needed) to reflect any changes in SamlLoginAction.java.
+6. Source for Liferay DXP 7.4 U92 SamlLoginAction.java is here: https://github.com/liferay/liferay-dxp/blob/7.4.13-u92/modules/dxp/apps/saml/saml-web/src/main/java/com/liferay/saml/web/internal/struts/SamlLoginAction.java
