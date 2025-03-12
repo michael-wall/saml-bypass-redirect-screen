@@ -1,0 +1,6 @@
+Bundle-Name: saml-web-override
+Bundle-SymbolicName: com.mw.saml.web.override
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.mw.saml.web.struts,\
+	com.mw.saml.web.struts.configuration

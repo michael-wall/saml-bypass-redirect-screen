@@ -1,0 +1,6 @@
+Bundle-Name: saml-web-fragment
+Bundle-SymbolicName: com.mw.saml.web.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.saml.web;bundle-version="5.0.65"
+Export-Package: \
+ com.liferay.saml.web.internal.struts
