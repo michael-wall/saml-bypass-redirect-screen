@@ -21,8 +21,10 @@
 - File name: com.mw.saml.web.struts.configuration.CustomSamlLoginActionConfiguration.config
 - File content to enable:
 
+```
 idPEntityId="....."
 injectIdPEntityId=B"true"
+```
 
 (where .... is the plain text IdP Entity ID)
 
