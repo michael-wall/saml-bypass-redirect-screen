@@ -26,7 +26,7 @@ idPEntityId="....."
 injectIdPEntityId=B"true"
 ```
 
-(where .... is the plain text IdP Entity ID)
+(where ..... is the plain text IdP Entity ID)
 
 ## Notes ##
 1. This is a public repository and is provided as a Proof Of Cencept (POC), as is. 
